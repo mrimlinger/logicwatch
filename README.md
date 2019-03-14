@@ -13,13 +13,26 @@ One clock
 
 ## Features
 
-The watch has five distinct operation modes (time, )
+The watch has five distinct operation modes (time, stopwatch, alarm, time setting, countdown). The user can switch between the mode by pressing A and B simultaneously for a longer period of time.
+
+### Mode 1 - Time
+
+
+
+### Mode 2 - Stopwatch
+
+### Mode 3 - Alarm
+
+### Mode 4 - Time setting
+
+### Mode 5 - Countdown
 
 ## Notable technical solutions
 
 - Various finite state machines
 - Switch debouncing system
 - Simultaneous button press detector
+- (...)
 
 ## How to use it
 
