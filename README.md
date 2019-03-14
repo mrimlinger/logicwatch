@@ -20,7 +20,7 @@ The watch has five distinct operation modes (time, stopwatch, alarm, time settin
 
 ### Mode 1 - Time
 
-Time is kept with the format {month - day of the week - date - hours - minutes - seconds}. Pressing on A allows to change from the display of {month - day of the week - date} to {hours - minutes - seconds} and vice-versa. Pressing on B changes the time format from european to american and vice-versa. When using the american time format, LEDs n°6-7 indicate wether time is AM (n°6) or PM (n°7).
+Time is kept with the format {month - day of the week - date - hours - minutes - seconds}. Pressing on A allows to change from the display of {month - day of the week - date} to {hours - minutes - seconds} and vice-versa. Pressing on B changes the time format from european to american and vice-versa. When using the american time format, LEDs n°6-7 indicate whether time is AM (n°6) or PM (n°7).
 
 ### Mode 2 - Alarm
 
@@ -46,7 +46,7 @@ When the countdown is running, pressing A will pause/resume it. When the countdo
 
 ### Power-on-reset (PoR)
 
-Pressing the PoR button will reset every mode with its default values. It is important as it allow to put the system in a known state and thus guarantee a correct behavior.
+Pressing the PoR button will reset every mode with its default values. It is important as it allow to put the system in a known state and thus guarantee a correct behaviour.
 
 ## Notable technical solutions
 
@@ -60,5 +60,3 @@ Pressing the PoR button will reset every mode with its default values. It is imp
 ## How to use it
 
 Launch `logisim-evolution-2.13.19.jar` and from there open `MAIN.circ`. Then you can start the simulation. Depending on your computer performance and the settings of the simulation, time will most likely not be accurate. It can however be calibrated by modifying certain logic circuits.
-
-
