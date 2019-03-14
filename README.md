@@ -24,11 +24,14 @@ Time is kept with the format {month - day of the week - date - hours - minutes -
 
 ### Mode 2 - Stopwatch
 
-Pressing on B resume/pause the chronometer. Pressing on A while the chronometer is paused will reset it at zero. Pressing A while the chronometer is working will do nothing.
+Stopwatch indicates {minutes - seconds - centiseconds}. Pressing on B resume/pause the chronometer. Pressing on A while the chronometer is paused will reset it at zero. Pressing A while the chronometer is working will do nothing.
 
 ### Mode 3 - Alarm
 
-The SSD of the field being modified blinks
+The first four SSDs from the left indicate {hour - minute} at which the alarm should sound. The sixth SSD (far right) is either one (alarm ON) or zero (alarm OFF). At any time and on any mode, the tenth LED (far right) indicates whether the alarm is On or OFF. 
+
+The SSD of the field being modified blinks. Pressing button A increment the field being modified. Pressing B changes the field being modified (from left to right).
+
 When the alarm "sounds", a special LED animation is triggered. To stop it, any button can be pressed.
 
 ### Mode 4 - Time setting
