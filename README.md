@@ -51,6 +51,7 @@ Pressing the PoR button will reset every mode with its default values. It is imp
 ## Notable technical solutions
 
 - Various finite state machines
+- React to falling-edge only systems
 - Switch debouncing system
 - Simultaneous button press detector
 - PoR initialization
